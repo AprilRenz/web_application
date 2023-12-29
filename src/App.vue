@@ -1,14 +1,14 @@
 <script setup>
-import BaseCondition from './components/BaseCondition.vue'
-import BaseLoop from './components/BaseLoop.vue'
-
+import Flexbox from './components/Flexbox.vue'
+import calculator from './components/calculator.vue'
 </script>
 
 <template>
     <div>
-        <BaseCondition/>
-      </div>
-      <div>
-            <BaseLoop/>
-          </div>
+      <calculator />
+      </div>   
+    <div>
+        <Flexbox />
+        </div>
+    
 </template>
